@@ -19,15 +19,19 @@ Customer attrition (churn) is one of the most critical business challenges in su
 
 ## 📂 Project Structure
 ```text
-├── Data/
-│   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv  # Raw Dataset
-│   └── Cleaned_Telco_Churn.csv               # Processed Dataset
-├── Notebooks/
+├── Datasets/
+│   ├── Telco-Customer-Churn.csv              # Raw Dataset
+│   └── Cleaned_telco_churn.csv               # Processed Dataset
+├── Python/
 │   └── Telco_Customer_Churn_EDA.ipynb        # Data Cleaning & Python EDA
 ├── Database/
 │   └── telecom_churn_project.db              # SQLite Database
-├── Dashboard/
-│   └── Customer_Churn_Dashboard.pbix         # Power BI Multi-Page Report
+├── PowerBI/
+│   └── Churn Prediction Analysis.pbix        # Power BI Multi-Page Report
+├──Dashboards/                                # PowerBi Dashboard Images
+|   ├── Executive Overview.png
+|   └── Demographic Insights.png
+|   └── Services and Add-ons.png
 └── README.md
 ```
 🔍 Key Phases & Methodology
